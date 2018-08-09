@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  shell:
+    image: tensorflow/tensorflow
+    hostname: 'shell'
+    volumes:
+      - ${CURRENTPATH}:/notebooks/${FOLDER}
+    ports: 
+      - 8888:8888
+      - 6006:6006
