@@ -1,4 +1,4 @@
-from Hearts_trick_card_game import Hearts
+from SimEnv import Hearts
 from RL import DQN
 
 def run_hearts():
